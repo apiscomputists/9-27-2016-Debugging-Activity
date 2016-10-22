@@ -1,0 +1,31 @@
+﻿DEBUG 1
+
+
+#include <iostream>
+
+
+using namespace std;
+
+
+void main() 
+{
+        int Guess_Number = 1; 
+
+
+        // Give instructions. 
+        cout << "What is my favorite number?" << endl;
+        // Get the "guess" number. 
+        cin >> Guess_Number; 
+
+
+        if (Guess_Number = 1)
+        {
+                cout << "That is my favorite number! Great Job." << endl;
+        }
+
+
+        system("PAUSE"); 
+}
+
+
+// ERROR: Remember to write two “=”s together for an “if” condition
